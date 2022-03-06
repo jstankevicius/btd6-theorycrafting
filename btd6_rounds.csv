@@ -1,0 +1,155 @@
+Round Number,Round Spawns,RBE,Bloon Income,Total Income,Cumulative Income,Income Reduction,Health Ramp,Speed Ramp
+1,20 Reds,20,$20,$771,$771,,,
+2,35 Reds,35,$35,$137,$908,,,
+3,"25 Reds, 5 Blues",35,$35,$138,"$1,046",,,
+4,"35 Reds, 18 Blues",71,$71,$175,"$1,221",,,
+5,"5 Reds, 27 Blues",59,$59,$164,"$1,385",,,
+6,"15 Reds, 15 Blues, 4 Greens",57,$57,$163,"$1,548",,,
+7,"20 Reds, 20 Blues, 5 Greens",75,$75,$182,"$1,730",,,
+8,"10 Reds, 20 Blues, 14 Greens",92,$92,$200,"$1,930",,,
+9,30 Greens,90,$90,$199,"$2,129",,,
+10,102 Blues,204,$204,$314,"$2,443",,,
+11,"10 Reds, 10 Blues, 12 Greens, 3 Yellows",78,$78,$189,"$2,632",,,
+12,"15 Blues, 10 Greens, 5 Yellows",80,$80,$192,"$2,824",,,
+13,"50 Blues, 23 Greens",169,$169,$282,"$3,106",,,
+14,"49 Reds, 15 Blues, 10 Greens, 9 Yellows",145,$145,$259,"$3,365",,,
+15,"20 Reds, 15 Blues, 12 Greens, 10 Yellows, 5 Pinks",151,$151,$266,"$3,631",,,
+16,"40 Greens, 8 Yellows",152,$152,$268,"$3,899",,,
+17,12 Regrow Yellows,48,$48,$165,"$4,064",,,
+18,80 Greens,240,$240,$358,"$4,422",,,
+19,"10 Greens, 4 Yellows, 5 Regrow Yellows, 15 Pinks",141,$141,$260,"$4,682",,,
+20,6 Blacks,66,$66,$186,"$4,868",,,
+21,"40 Yellows, 14 Pinks",230,$230,$351,"$5,219",,,
+22,16 Whites,176,$176,$298,"$5,517",,,
+23,"7 Blacks, 7 Whites",154,$154,$277,"$5,794",,,
+24,"20 Blues, 1 Camo Green",43,$43,$167,"$5,961",,,
+25,"25 Regrow Yellows, 10 Purples",210,$210,$335,"$6,296",,,
+26,"23 Pinks, 4 Zebras",207,$207,$333,"$6,629",,,
+27,"100 Reds, 60 Blues, 45 Greens, 45 Yellows",535,$535,$662,"$7,291",,,
+28,6 Leads,138,$138,$266,"$7,557",,,
+29,"50 Yellows, 15 Regrow Yellows",260,$260,$389,"$7,946",,,
+30,9 Leads,207,$207,$337,"$8,283",,,
+31,"8 Blacks, 8 Whites, 8 Zebras, 2 Regrow Zebras",406,$406,$537,"$8,820",,,
+32,"15 Blacks, 20 Whites, 10 Purples",495,$495,$627,"$9,447",,,
+33,"20 Camo Reds, 13 Camo Yellows",72,$72,$205,"$9,652",,,
+34,"160 Yellows, 6 Zebras",778,$778,$912,"$10,564",,,
+35,"35 Pinks, 30 Blacks, 25 Whites, 5 Rainbows",1015,"$1,015","$1,150","$11,714",,,
+36,"140 Pinks, 20 Camo Regrow Greens",760,$760,$896,"$12,610",,,
+37,"25 Blacks, 25 Whites, 7 Camo Whites, 10 Zebras, 15 Leads",1202,"$1,202","$1,339","$13,949",,,
+38,"42 Pinks, 17 Whites, 10 Zebras, 14 Leads, 2 Ceramics",1157,"$1,139","$1,277","$15,226",,,
+39,"10 Blacks, 10 Whites, 20 Zebras, 18 Rainbows, 2 Regrow Rainbows",1620,"$1,620","$1,759","$16,985",,,
+40,1 MOAB,616,$381,$521,"$17,506",,,
+41,"60 Blacks, 60 Zebras",2040,"$2,040","$2,181","$19,687",,,
+42,"6 Regrow Rainbows, 5 Camo Rainbows",517,$517,$659,"$20,346",,,
+43,"10 Rainbows, 7 Ceramics",1198,"$1,135","$1,278","$21,624",,,
+44,50 Zebras,1150,"$1,150","$1,294","$22,918",,,
+45,"180 Pinks, 10 Camo Purples, 4 Fortified Leads, 25 Rainbows",2289,"$2,277","$2,422","$25,340",,,
+46,6 Fortified Ceramics,684,$570,$716,"$26,056",,,
+47,"70 Camo Pinks, 12 Ceramics",1598,"$1,490","$1,637","$27,693",,,
+48,"40 Regrow Pinks, 30 Camo Regrow Purples, 40 Rainbows, 3 Fortified Ceramics",2752,"$2,695","$2,843","$30,536",,,
+49,"343 Greens, 20 Zebras, 20 Rainbows, 10 Regrow Rainbows, 18 Ceramics",4771,"$4,609","$4,758","$35,294",,,
+50,"20 Reds, 8 Fortified Leads, 20 Ceramics, 2 MOABs",3540,"$2,866","$3,016","$38,310",,,
+51,"10 Regrow Rainbows, 15 Camo Ceramics",2030,$947.50,"$1,023","$39,333",0.5,,
+52,"25 Rainbows, 10 Ceramics, 2 MOABs",3447,"$1,443.50","$1,519.50","$40,852.50",0.5,,
+53,"80 Camo Pinks, 3 MOABs",2248,$771.50,$848,"$41,700.50",0.5,,
+54,"35 Ceramics, 2 MOABs",4872,"$2,043.50","$2,120.50","$43,821",0.5,,
+55,"45 Ceramics, 1 MOAB",5296,"$2,328","$2,405.50","$46,226.50",0.5,,
+56,"40 Camo Rainbows, 1 MOAB",2496,"$1,130.50","$1,208.50","$47,435",0.5,,
+57,"40 Rainbows, 4 MOABs",4344,"$1,702","$1,780.50","$49,215.50",0.5,,
+58,"15 Ceramics, 10 Fortified Ceramics, 5 MOABs",5780,"$2,140","$2,219","$51,434.50",0.5,,
+59,"50 Camo Leads, 20 Ceramics, 10 Regrow Ceramics",4270,"$2,000","$2,079.50","$53,514",0.5,,
+60,1 BFB,3164,$762.50,$842.50,"$54,356.50",0.5,,
+61,"150 Regrow Zebras, 5 MOABs",6530,"$1,071","$1,103.20","$55,459.70",0.2,,
+62,"250 Purples, 15 Camo Regrow Rainbows, 5 MOABs, 2 Fortified MOABs",8247,"$1,224.40","$1,256.80","$56,716.50",0.2,,
+63,"75 Leads, 122 Ceramics",14413,"$2,663","$2,695.60","$59,412.10",0.2,,
+64,"6 MOABs, 3 Fortified MOABs",6264,$685.80,$718.60,"$60,130.70",0.2,,
+65,"100 Zebras, 70 Rainbows, 50 Ceramics, 3 MOABs, 2 BFBs",18966,"$2,906.60","$2,939.60","$63,070.30",0.2,,
+66,"8 MOABs, 3 Fortified MOABs",7496,$838.20,$871.40,"$63,941.70",0.2,,
+67,"13 Camo Regrow Fortified Ceramics, 8 MOABs",6410,$856.60,$890,"$64,831.70",0.2,,
+68,"4 MOABs, 1 BFB",5628,$609.80,$643.40,"$65,475.10",0.2,,
+69,"40 Regrow Blacks, 40 Fortified Leads, 50 Ceramics",6680,"$1,222","$1,255.80","$66,730.90",0.2,,
+70,"120 Camo Regrow Whites, 200 Rainbows, 4 MOABs",13184,"$2,448.80","$2,482.80","$69,213.70",0.2,,
+71,"30 Ceramics, 10 MOABs",9280,"$1,332","$1,366.20","$70,579.90",0.2,,
+72,"38 Regrow Ceramics, 2 BFBs",10280,"$1,332","$1,366.40","$71,946.30",0.2,,
+73,"8 MOABs, 2 BFBs",11256,"$1,219.60","$1,254.20","$73,200.50",0.2,,
+74,"50 Ceramics, 60 Fortified Ceramics, 25 Camo Regrow Fortified Ceramics, 1 BFB",18054,"$2,870","$2,904.80","$76,105.30",0.2,,
+75,"14 Leads, 14 Fortified Leads, 3 Fortified MOABs, 7 BFBs",25402,"$2,492.40","$2,527.40","$78,632.70",0.2,,
+76,60 Regrow Ceramics,6240,"$1,140","$1,175.20","$79,807.90",0.2,,
+77,"11 MOABs, 5 BFBs",22596,"$2,363.20","$2,398.60","$82,206.50",0.2,,
+78,"80 Purples, 150 Rainbows, 75 Ceramics, 72 Camo Ceramics, 1 BFB",26382,"$4,684","$4,719.60","$86,926.10",0.2,,
+79,"500 Regrow Rainbows, 4 BFBs, 2 Fortified BFBs",45804,"$6,530","$6,565.80","$93,491.90",0.2,,
+80,1 ZOMG,16656,"$1,220.20","$1,256.20","$94,748.10",0.2,,
+81,17 BFBs,44506,"$5,185","$5,221.20","$99,969.30",0.2,1.02,1.02
+82,"10 BFBs, 5 Fortified BFBs",52320,"$4,575","$4,611.40","$104,580.70",0.2,1.04,1.04
+83,"40 Ceramics, 40 Regrow Ceramics, 40 Fortified Ceramics, 30 MOABs",25080,"$4,566","$4,602.60","$109,183.30",0.2,1.06,1.06
+84,"50 MOABs, 10 BFBs",51480,"$6,860","$6,896.80","$116,080.10",0.2,1.08,1.08
+85,2 ZOMGs,30704,"$2,440.40","$2,477.40","$118,557.50",0.2,1.1,1.1
+86,5 Fortified BFBs,27040,$762.50,$781.10,"$119,338.60",0.1,1.12,1.12
+87,4 ZOMGs,63008,"$2,440.40","$2,459.10","$121,797.70",0.1,1.14,1.14
+88,"18 MOABs, 8 BFBs, 2 ZOMGs",63600,"$3,126","$3,144.80","$124,942.50",0.1,1.16,1.16
+89,"20 Fortified MOABs, 8 Fortified BFBs",64384,"$1,982","$2,000.90","$126,943.40",0.1,1.18,1.18
+90,"50 Camo Regrow Fortified Leads, 3 DDTs",2756,$149.30,$168.30,"$127,111.70",0.1,1.2,1.2
+91,"100 Fortified Ceramics, 20 BFBs",71160,"$4,000","$4,019.10","$131,130.80",0.1,1.22,1.22
+92,"50 Fortified MOABs, 4 ZOMGs",117408,"$4,345.40","$4,364.60","$135,495.40",0.1,1.24,1.24
+93,"10 Fortified BFBs, 6 DDTs",62936,"$1,753.60","$1,772.90","$137,268.30",0.1,1.26,1.26
+94,"25 BFBs, 6 ZOMGs",178112,"$7,473.10","$7,492.50","$144,760.80",0.1,1.28,1.28
+95,"500 Camo Regrow Purples, 250 Camo Regrow Fortified Leads, 50 Fortified MOABs, 30 DDTs",80860,"$3,523","$3,542.50","$148,303.30",0.1,1.3,1.3
+96,"40 Fortified MOABs, 30 BFBs, 6 ZOMGs",238952,"$9,759.60","$9,779.20","$158,082.50",0.1,1.32,1.32
+97,2 Fortified ZOMGs,69984,"$1,220.20","$1,239.90","$159,322.40",0.1,1.34,1.34
+98,"30 Fortified BFBs, 8 ZOMGs",327456,"$9,455.80","$9,475.60","$168,798",0.1,1.36,1.36
+99,"60 MOABs, 9 Fortified DDTs",47424,"$2,628.90","$2,648.80","$171,446.80",0.1,1.38,1.38
+100,1 BAD,67200,"$1,334.60","$1,354.60","$172,801.40",0.1,1.4,1.4
+101,"450 Purples, 50 Fortified Ceramics, 10 Fortified MOABs",20020,$225.20,$229.22,"$173,030.62",0.02,1.45,1.6
+102,"3 BFBs, 3 Fortified BFBs, 1 ZOMG, 3 Fortified ZOMGs, 18 DDTs, 12 Fortified DDTs",199826,$899.68,$903.72,"$173,934.34",0.02,1.5,1.62
+103,"198 Purples, 100 MOABs, 50 Fortified MOABs, 10 Fortified ZOMGs",507908,"$2,386.96","$2,391.02","$176,325.36",0.02,1.55,1.64
+104,"200 Fortified Leads, 200 Purples, 200 Ceramics, 150 Fortified MOABs, 25 BFBs, 14 Fortified BFBs",372672,"$2,764.50","$2,768.58","$179,093.94",0.02,1.6,1.66
+105,"25 Fortified Leads, 100 Ceramics, 300 Fortified Ceramics, 30 BFBs",152340,"$1,678.50","$1,682.60","$180,776.54",0.02,1.65,1.68
+106,"66 DDTs, 27 Fortified DDTs",113376,$708.66,$712.78,"$181,489.32",0.02,1.7,1.7
+107,"444 Camo Purples, 100 Fortified Ceramics, 10 Fortified ZOMGs",447384,"$1,463.48","$1,467.62","$182,956.94",0.02,1.75,1.72
+108,"9 ZOMGs, 10 Fortified ZOMGs",643088,"$2,318.38","$2,322.54","$185,279.48",0.02,1.8,1.74
+109,"15 Purples, 30 Fortified MOABs, 15 BFBs, 15 Fortified BFBs, 15 ZOMGs",552345,"$2,975.70","$2,979.88","$188,259.36",0.02,1.85,1.76
+110,"25 BFBs, 18 DDTs, 12 Fortified DDTs",141410,$991.10,$995.30,"$189,254.66",0.02,1.9,1.78
+111,"22 ZOMGs, 9 Fortified ZOMGs",949472,"$3,782.62","$3,786.84","$193,041.50",0.02,1.95,1.8
+112,"27 Fortified BFBs, 21 Fortified DDTs",261648,$983.52,$987.76,"$194,029.26",0.02,2,1.82
+113,"42 Camo Ceramics, 42 Fortified Ceramics, 75 Fortified MOABs, 15 Fortified BFBs",231102,"$1,188.60","$1,192.86","$195,222.12",0.02,2.05,1.84
+114,"24 MOABs, 36 Fortified MOABs, 12 BFBs, 8 Fortified BFBs, 5 ZOMGs, 3 Fortified ZOMGs, 9 DDTs, 6 Fortified DDTs",483416,"$2,157.66","$2,161.94","$197,384.06",0.02,2.1,1.86
+115,"24 MOABs, 36 Fortified MOABs, 12 BFBs, 8 Fortified BFBs, 5 ZOMGs, 3 Fortified ZOMGs, 9 DDTs, 6 Fortified DDTs",492396,"$2,157.66","$2,161.96","$199,546.02",0.02,2.15,1.88
+116,"400 Purples, 18 Fortified BFBs, 8 Fortified ZOMGs",575600,"$1,573.16","$1,577.48","$201,123.50",0.02,2.2,1.9
+117,"250 Leads, 27 DDTs, 18 Fortified DDTs",75010,$377.90,$382.24,"$201,505.74",0.02,2.25,1.92
+118,"12 ZOMGs, 30 Fortified DDTs",398784,"$1,692.84","$1,697.20","$203,202.94",0.02,2.3,1.94
+119,3 BADs,319020,$800.76,$805.14,"$204,008.08",0.02,2.35,1.96
+120,"24 Fortified MOABs, 12 BFBs, 12 ZOMGs",431808,"$2,013.12","$2,017.52","$206,025.60",0.02,2.4,1.98
+121,"14 Fortified BFBs, 28 Fortified MOABs, 6 Fortified ZOMGs",516500,"$1,372.48","$1,376.90","$207,402.50",0.02,2.45,2
+122,"20 Fortified BFBs, 40 BFBs, 225 Fortified Leads",386730,"$1,861.50","$1,865.94","$209,268.44",0.02,2.5,2.02
+123,"200 MOABs, 8 Fortified ZOMGs",629936,"$2,500.16","$2,504.62","$211,773.06",0.02,2.55,2.04
+124,75 Fortified BFBs,738600,"$2,287.50","$2,291.98","$214,065.04",0.02,2.6,2.06
+125,"21 ZOMGs, 42 BFBs, 63 MOABs",939624,"$4,323.48","$4,327.98","$218,393.02",0.02,2.75,2.08
+126,"1 Camo Regrow Fortified Lead, 99 DDTs",141778,$754.52,$759.04,"$219,152.06",0.02,2.9,2.1
+127,"48 MOABs, 24 BFBs",178248,"$1,097.76","$1,102.30","$220,254.36",0.02,3.05,2.12
+128,"39 Fortified DDTs, 200 Camo Fortified Ceramics, 30 BFBs",322048,"$1,592.18","$1,596.74","$221,851.10",0.02,3.2,2.14
+129,"7 Fortified ZOMGs, 77 Camo Fortified Leads, 77 Camo Purples, 77 Camo Ceramics, 7 ZOMGs, 18 DDTs",826792,"$2,011.76","$2,016.34","$223,867.44",0.02,3.35,2.16
+130,"84 MOABs, 66 Fortified MOABs, 48 DDTs, 6 Fortified DDTs",307968,"$1,554.48","$1,559.08","$225,426.52",0.02,3.5,2.18
+131,18 Fortified ZOMGs,1461456,"$2,196.36","$2,200.98","$227,627.50",0.02,3.65,2.2
+132,"18 ZOMGs, 6 Fortified ZOMGs, 200 Camo Purples",1268688,"$2,952.48","$2,957.12","$230,584.62",0.02,3.8,2.22
+133,"12 Fortified MOABs, 12 Fortified BFBs, 4 Fortified ZOMGs, 27 MOABs, 27 BFBs, 9 ZOMGs",1153341,"$3,072.94","$3,077.60","$233,662.22",0.02,3.95,2.24
+134,"12 Fortified BFBs, 28 BFBs",374840,"$1,220","$1,224.68","$234,886.90",0.02,4.1,2.26
+135,"21 Fortified DDTs, 14 Fortified ZOMGs",1386840,"$1,868.30","$1,873","$236,759.90",0.02,4.25,2.28
+136,"96 Fortified MOABs, 24 BFBs",402648,"$1,463.52","$1,468.24","$238,228.14",0.02,4.4,2.3
+137,"18 ZOMGs, 24 BFBs, 48 MOABs",1143984,"$3,294.12","$3,298.86","$241,527",0.02,4.55,2.32
+138,"81 Fortified DDTs, 45 DDTs",442872,$960.12,$964.88,"$242,491.88",0.02,4.7,2.34
+139,"181 MOABs, 72 Fortified MOABs",401346,"$1,927.86","$1,932.64","$244,424.52",0.02,4.85,2.36
+140,"1 Fortified BAD, 1 BAD",645440,$533.84,$538.64,"$244,963.16",0.02,5,2.38
+141 - 162,"MOABs (random), Fortified MOABs (random), BFBs (random), Fortified BFBs (random), ZOMGs (random), Fortified ZOMGs (random), DDTs (random), Fortified DDTs (random), BADs (random)",Random,Random,$538.64,Random,0.02,Depends,Depends
+163,"Camo Regrow Leads (random), Camo Fortified Leads (random), Regrow Fortified Leads (random), Ceramics (random), Camo Ceramics (random), Regrow Ceramics (random), Camo Regrow Ceramics (random), Fortified Ceramics (random), Camo Fortified Ceramics (random), Regrow Fortified Ceramics (random), Camo Regrow Fortified Ceramics (random)",Random,Random,$538.64,Random,0.02,11.05,3.24
+164 - 199,"MOABs (random), Fortified MOABs (random), BFBs (random), Fortified BFBs (random), ZOMGs (random), Fortified ZOMGs (random), DDTs (random), Fortified DDTs (random), BADs (random)",Random,Random,$538.64,Random,0.02,Depends,Depends
+200,2 Fortified BADs,3991040,$533.84,$539.84,Random,0.02,24,3.98
+201 - 262,"MOABs (random), Fortified MOABs (random), BFBs (random), Fortified BFBs (random), ZOMGs (random), Fortified ZOMGs (random), DDTs (random), Fortified DDTs (random), BADs (random), Fortified BADs (random)",Random,Random,$539.84,Random,0.02,Depends,Depends
+263,"MOABs (random), Fortified MOABs (random), Fortified DDTs (random)",Random,Random,$539.84,Random,0.02,54.5,6.22
+264 - 9999,"MOABs (random), Fortified MOABs (random), BFBs (random), Fortified BFBs (random), ZOMGs (random), Fortified ZOMGs (random), DDTs (random), Fortified DDTs (random), BADs (random), Fortified BADs (random)",Random,Random,$539.84,Random,0.02,Depends,Depends
+10000,100 Fortified BADs,3.95×1011,"$26,692","$26,894",Random,0.02,47991.5,200.96
+10001,9999 Ceramics,679932,"$18,998.10","$19,200.12",Random,0.02,47996.5,200.98
+10002,100 MOABs,960057200,$762,$964.04,Random,0.02,48001.5,201
+10003,100 BFBs,7.20×109,"$3,050","$3,252.06",Random,0.02,48006.5,201.02
+10004,100 ZOMGs,4.80×1010,"$12,202","$12,404.08",Random,0.02,48011.5,201.04
+10005,100 DDTs,1.92×109,$762,$964.10,Random,0.02,48016.5,201.06
+10006+,100 Fortified BADs,Depends,"$26,692","$26,894.12",Random,0.02,Depends,Depends
