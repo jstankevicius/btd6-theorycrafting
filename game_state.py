@@ -74,8 +74,7 @@ class GameState:
             path: the index of an upgrade path (one of 0, 1, 2)
         """
 
-        assert path in self.get_upgradable_paths(farm), f"Path {path} cannot ",
-        f"be upgraded for {farm}")
+        assert path in self.get_upgradable_paths(farm), f"Path {path} cannot be upgraded for {farm}")
 
         farm.upgrade_path(path)
 
@@ -89,8 +88,7 @@ class GameState:
         """Attempts to purchase a farm; on success, a new BananaFarm is added
         to the GameState's farm list."""
 
-        assert self.can_buy_farm(), "Not enough money to buy Banana Farm: ",
-        f"have ${self.Money:,}, but costs ${BASE_COST:,}"
+        assert self.can_buy_farm(), "Not enough money to buy Banana Farm: have ${self.Money:,}, but costs ${BASE_COST:,}"
 
         self._farms.append(BananaFarm())
         self._money -= BASE_COST
