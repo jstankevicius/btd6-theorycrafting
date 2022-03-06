@@ -59,7 +59,8 @@ class GameState:
         for i in upgradable:
             tier = farm.Upgrades[i]
 
-            if (2 < tier < 5 or tier < 2) and self.Money >= UPGRADE_COSTS[i][tier + 1]:
+            if (2 < tier < 5 or tier < 2) \
+            and self.Money >= UPGRADE_COSTS[i][tier + 1]:
                 l.append(i)
 
         return l
@@ -73,7 +74,8 @@ class GameState:
             path: the index of an upgrade path (one of 0, 1, 2)
         """
 
-        assert path in self.get_upgradable_paths(farm), f"Path {path} cannot be upgraded for {farm}"
+        assert path in self.get_upgradable_paths(farm), f"Path {path} cannot \
+                be upgraded for {farm}"
 
         farm.upgrade_path(path)
 
@@ -87,7 +89,8 @@ class GameState:
         """Attempts to purchase a farm; on success, a new BananaFarm is added
         to the GameState's farm list."""
 
-        assert self.can_buy_farm(), f"Not enough money to buy Banana Farm: have ${self.Money:,}, but costs ${BASE_COST:,}"
+        assert self.can_buy_farm(), f"Not enough money to buy Banana Farm: \
+                have ${self.Money:,}, but costs ${BASE_COST:,}"
 
         self._farms.append(BananaFarm())
         self._money -= BASE_COST

@@ -76,8 +76,8 @@ class Tower:
         if self._upgrades[path] + 1 == 3:
             for i in range(3):
                 if i != path and _self.upgrades[i] > 2:
-                    raise Exception(f"Tried to upgrade Path {path} to Tier 3,"
-                            + " but Path {i} is Tier {_self.upgrades[i]}")
+                    raise Exception(f"Tried to upgrade Path {path} to Tier 3 \
+                            but Path {i} is Tier {_self.upgrades[i]}")
 
         self._upgrades[path] += 1
 
@@ -95,7 +95,9 @@ class BananaFarm(Tower):
         """Returns this farm's BPR (bananas per round)."""
 
         # Take base BPR, add all modifiers on top of it.
-        bpr_mods = sum([UPGRADE_BPR_MODIFIERS[i][self.Upgrades[i]] for i in range(3)])
+        bpr_mods = sum([UPGRADE_BPR_MODIFIERS[i][self.Upgrades[i]] \
+                for i in range(3)])
+
         return BASE_BPR + bpr_mods
 
     def get_mpb(self):
