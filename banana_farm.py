@@ -55,10 +55,22 @@ class Tower:
 
     def __init__(self, path1, path2, path3):
         self._upgrades = [path1, path2, path3]
+        self._cost = 1250
+
+        for path in range(len(self._upgrades)):
+            for tier in range(self._upgrades[path] + 1):
+                self._cost += UPGRADE_COSTS[path][tier]
 
     @property
     def Upgrades(self):
         return self._upgrades
+
+    @property
+    def Cost(self):
+        return self._cost
+
+    def get_cost(self):
+        return self._cost
 
     def get_path(self, path):
         return self._upgrades[path]
@@ -75,11 +87,12 @@ class Tower:
         # or above, fail.
         if self._upgrades[path] + 1 == 3:
             for i in range(3):
-                if i != path and _self.upgrades[i] > 2:
+                if i != path and self._upgrades[i] > 2:
                     raise Exception(f"Tried to upgrade Path {path} to Tier 3 \
-                            but Path {i} is Tier {_self.upgrades[i]}")
+                            but Path {i} is Tier {self._upgrades[i]}")
 
         self._upgrades[path] += 1
+        self._cost += UPGRADE_COSTS[path][self._upgrades[path]]
 
 
 class BananaFarm(Tower):
@@ -147,5 +160,5 @@ class BananaFarm(Tower):
         mpb = self.get_mpb()
         mpr = bpr*mpb
         upgrades = '-'.join([str(i) for i in self.Upgrades])
-        return f"Banana Farm ({upgrades}): BPR={bpr}, MPB=${mpb}, MPR=${mpr}"
+        return f"Banana Farm ({upgrades}): BPR={bpr}, MPB=${mpb}, MPR=${mpr}, Cost:${self.Cost:,}"
 

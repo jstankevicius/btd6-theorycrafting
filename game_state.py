@@ -37,6 +37,7 @@ class GameState:
         for farm in self.Farms:
             total += farm.tick()
 
+        self._money += total
         return total
 
     def get_upgradable_paths(self, farm):
@@ -48,22 +49,38 @@ class GameState:
             farm: a BananaFarm object
         """
 
-        upgradable = set()
+        # Sort indices by tier. If middle upgrade is > 0, we know the last tier
+        # should be excluded.
+        paths = sorted([(path, tier) \
+                for path, tier in enumerate(farm.Upgrades)], key=lambda x:-x[1])
 
-        for i in range(len(farm.Upgrades)):
-            if farm.Upgrades[i] == 0:
-                upgradable.add((i + 1) % len(farm.Upgrades))
-                upgradable.add((i - 1) % len(farm.Upgrades))
-
+        # Check for x-y-0, where x >= y > 0. In this case, we cannot upgrade
+        # the third path, so remove it.
         l = []
-        for i in upgradable:
-            tier = farm.Upgrades[i]
 
-            if (2 < tier < 5 or tier < 2) \
-            and self.Money >= UPGRADE_COSTS[i][tier + 1]:
-                l.append(i)
+        if paths[1][1] > 0:
+            del paths[2]
+        else:
+            l.append(paths[2][0])
 
-        return l
+        # 1st path (being highest tier) can always be considered upgradable so
+        # long as it is below tier 5.
+        if paths[0][1] < 5:
+            l.append(paths[0][0])
+
+        # 2nd path can be upgraded in two cases:
+        # 1st path is tier 2 or below
+        # 1st path is tier 3 or above and 2nd path is below tier 2
+        if paths[0][1] < 3:
+            l.append(paths[1][0])
+        elif paths[1][1] < 2:
+            l.append(paths[1][0])
+
+        # Now filter by whether we can actually afford the upgrades:
+        upgradable = [i for i in l \
+                if self.Money >= UPGRADE_COSTS[i][farm.Upgrades[i] + 1]]
+
+        return sorted(upgradable)
 
     def upgrade_path_for_farm(self, farm, path):
         """Given a BananaFarm object and a desired path to upgrade, attempts to
@@ -74,8 +91,9 @@ class GameState:
             path: the index of an upgrade path (one of 0, 1, 2)
         """
 
-        assert path in self.get_upgradable_paths(farm), f"Path {path} cannot be upgraded for {farm}")
-
+        assert path in self.get_upgradable_paths(farm), f"Path {path} cannot be upgraded for {farm}"
+        upgrade_cost = UPGRADE_COSTS[path][farm.Upgrades[path] + 1]
+        self._money -= upgrade_cost
         farm.upgrade_path(path)
 
     def can_buy_farm(self):
